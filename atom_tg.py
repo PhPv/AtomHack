@@ -67,7 +67,7 @@ def request_settings(index):
     Settings.llm = TogetherLLM(
         # model="meta-llama/Llama-3-8b-chat-hf",
         model="Qwen/Qwen2-72B-Instruct",
-        api_key='b1ff1047cf3750cc14ae886eed55381caba5be6989bcf35349deb7f1bd15cc61')
+        api_key=os.getenv("together_api"))
     Settings.context_window = 4096
 
     # тоже самое (и даже лучше) можно развернуть локально, но нужны мощности для адекватного отклика

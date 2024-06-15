@@ -1,0 +1,10 @@
+chromadb
+pandas
+requests
+llama_index-core 
+llama_index-embeddings-huggingface 
+llama_index-vector-stores-qdrant
+llama-index-readers-file
+chainlit
+llama-index-llms-together
+telebot
